@@ -7,7 +7,7 @@ li{
     list-style: none;
 }
 a{
-    color:steelblue;
+    color:rgb(6, 27, 44);
 }
 .logo_search_nav{
     display: flex;
@@ -57,14 +57,14 @@ a{
 .main_text{
     position:relative; 
     top:100px;
-    color:steelblue;
+    color:rgb(6, 27, 44);
     font-size: 60px;
     text-shadow: 1px 1px 3px black;
 }
 .main_text_sub{
     position:relative; 
     top:180px;
-    color:     cornflowerblue ;
+    color:rgb(6, 27, 44);
     font-size: 32px;
     text-shadow: 1px 1px 3px black;
 }
@@ -85,13 +85,11 @@ a{
     text-align: center;
 }
 .menu_detail_img img{
-    height:75px;
+    height:100px;
 }
 .menu_detail_text{
-    position: relative;
-    top:25px;
-    left:75px;
     text-shadow: 1px 1px 3px black;
+    text-align: center;
 }
 .clear{
     clear: both;
@@ -112,6 +110,14 @@ a{
     flex-direction: row;
     justify-content: space-between;
 }
+@media screen and(max-width:799px){
+    .digital_wrap ul{
+        flex-wrap: nowrap;
+    }
+    .analog_wrap ul{
+        flex-wrap: nowrap;
+    }
+}
 
 /*++メインコンテンツ`profile++*/
 .prof_wrap{
@@ -124,7 +130,7 @@ a{
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:start;
 }
 .prof_img img{
     text-align: center;
