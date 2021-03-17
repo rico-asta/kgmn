@@ -7,7 +7,7 @@ li{
     list-style: none;
 }
 a{
-    color: cornsilk;
+    color:steelblue;
 }
 .logo_search_nav{
     display: flex;
@@ -60,7 +60,13 @@ a{
     font-size: 60px;
     text-shadow: 1px 1px 3px black;
 }
-
+.main_text_sub{
+    position:relative; 
+    top:180px;
+    color:     cornflowerblue ;
+    font-size: 32px;
+    text-shadow: 1px 1px 3px black;
+}
 .menu{
     margin:75px
 }
@@ -93,20 +99,37 @@ a{
 .list li{
     text-align: left;
 }
+
+/*++メインコンテンツ`disital analog++*/
+.digital_wrap ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.analog_wrap ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /*++メインコンテンツ`profile++*/
 .prof_wrap{
     display: flex;
-    text-align: center;
+    justify-content: space-between;
+    width: 100%;
 }
 .prof_img{
-    width:10%
+    width: 30%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .prof_img img{
-    width:50%
+    text-align: center;
 }
 .prof_letter{
-    width:100%;
+    width:65%;
     display: flex;
     text-align: center;
     padding: 0 50px;
