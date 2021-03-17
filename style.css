@@ -24,6 +24,7 @@ a{
 .search{
     letter-spacing: 20px;
     line-height: 50px;
+    display: none;
 }
 .search span{
     font-size: 25px;
