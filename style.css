@@ -57,7 +57,7 @@ a{
 .main_text{
     position:relative; 
     top:100px;
-    color:     cornflowerblue ;
+    color:steelblue;
     font-size: 60px;
     text-shadow: 1px 1px 3px black;
 }
