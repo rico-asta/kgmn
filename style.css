@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    font-family: 'RocknRoll One', sans-serif;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.logo_search_nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+
+.logo img{
+    height:50px;
+}
+.search{
+    letter-spacing: 20px;
+    line-height: 50px;
+}
+.search span{
+    font-size: 25px;
+}
+.nav{
+    display: flex;
+    width: 70%;
+    margin: 0  auto;
+    text-align: center;
+    justify-content: space-around;
+}
+.nav li{
+    display:inline-block;
+    text-align: center;
+    list-style: none;
+}
+
+/*メインコンテンツ*/
+.main_text_wrap{
+    width: 100%;
+    text-align: center;
+    background-image: url(top.png);
+    background-size: cover;
+    opacity:0.8 ;
+    height:400px;
+    z-index: 10;
+}
+.main_text{
+    position:relative; 
+    top:100px;
+    color:     cornflowerblue ;
+    font-size: 60px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.menu{
+    margin:75px
+}
+.menu_detail{
+    display:flex ;
+    justify-content: space-around;
+}
+.menu_detail_box{
+    display: flex;
+    flex-direction: column-reverse;
+    width:30%;
+}
+.menu_detail_img{
+    width:100%;
+    text-align: center;
+}
+.menu_detail_img img{
+    height:75px;
+}
+.menu_detail_text{
+    position: relative;
+    top:25px;
+    left:75px;
+    text-shadow: 1px 1px 3px black;
+}
+.clear{
+    clear: both;
+}
+
+.list li{
+    text-align: left;
+}
+/*++メインコンテンツ`profile++*/
+.prof_wrap{
+    display: flex;
+    text-align: center;
+}
+.prof_img{
+    width:10%
+    text-align: center;
+}
+.prof_img img{
+    width:50%
+}
+.prof_letter{
+    width:100%;
+    display: flex;
+    text-align: center;
+    padding: 0 50px;
+    background-color: azure;
+}
+.prof_title{
+    width:70%;
+}
+.prof_text{
+    width:100%;
+    padding: 50px;
+}
+/*フッターコンテンツ*/
+footer{
+    height:30px;
+    background-color: cornflowerblue;
+}
+.foot_text{
+    text-align: center;
+    color: cornsilk;
+    text-shadow: 1px 1px 3px black;
+}
