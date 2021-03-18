@@ -102,21 +102,13 @@ a{
 /*++メインコンテンツ`disital analog++*/
 .digital_wrap ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 .analog_wrap ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-}
-@media screen and(max-width:799px){
-    .digital_wrap ul{
-        flex-wrap: nowrap;
-    }
-    .analog_wrap ul{
-        flex-wrap: nowrap;
-    }
 }
 
 /*++メインコンテンツ`profile++*/
