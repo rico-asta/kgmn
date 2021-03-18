@@ -19,11 +19,11 @@ a{
 
 
 .logo img{
-    height:50px;
+    height:75px;
 }
 .search{
-    letter-spacing: 20px;
-    line-height: 50px;
+    letter-spacing: 25px;
+    line-height: 75px;
     display: none;
 }
 .search span{
@@ -81,7 +81,7 @@ a{
     text-align: center;
 }
 .menu_detail_img img{
-    height:100px;
+    height:120px;
 }
 .menu_detail_text{
     text-shadow: 1px 1px 3px black;
@@ -108,33 +108,24 @@ a{
 /*++メインコンテンツ`profile++*/
 .prof_wrap{
     display: flex;
-    justify-content: space-between;
+    justify-content:stretch;
+    flex-wrap: wrap;
+    margin: auto 0;
 }
 .prof_img{
-    width: 30%;
+    width:100%;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content:start;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .prof_img img{
     width:100%;
-    text-align: center;
 }
 .prof_text {
     width:100%;
     padding: 10px;
 }
-@media screen and (max-width:768px){
-    .prof_wrap{
-        width: 100%;
-    }
-    .prof_title p{
-        width:100%;
-    }
-}
-
 /*フッターコンテンツ*/
 footer{
     height:30px;
