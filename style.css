@@ -64,7 +64,7 @@ a{
     text-shadow: 1px 1px 3px black;
 }
 .menu{
-    margin:75px
+    margin:0 auto;
 }
 .menu_detail{
     display:flex ;
@@ -116,26 +116,21 @@ a{
     display: flex;
     flex-direction: column;
     justify-content:start;
+    flex-wrap: wrap;
 }
 .prof_img img{
+    width:100%;
     text-align: center;
 }
-.prof_title{
-    width:70%;
-}
-.prof_text{
+.prof_text {
     width:100%;
-    padding: 50px;
+    padding: 10px;
 }
 @media screen and (max-width:768px){
     .prof_wrap{
-        justify-content:start;
+        width: 100%;
     }
-    .prof_img img{
-        width:100%;
-        text-align: center;
-    }
-    .prof_title{
+    .prof_title p{
         width:100%;
     }
 }
