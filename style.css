@@ -19,10 +19,9 @@ a{
 
 
 .logo img{
-    height:50px;
+    height:75px;
 }
 .search{
-    letter-spacing: 25px;
     line-height: 75px;
     display: none;
 }
@@ -35,6 +34,7 @@ a{
     text-align: center;
 }
 .nav ul{
+    padding: 0 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
