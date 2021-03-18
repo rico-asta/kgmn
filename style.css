@@ -11,7 +11,7 @@ a{
 }
 .logo_search_nav{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     width: 100%;
     color: white;
     background-color: cornflowerblue;
@@ -30,7 +30,7 @@ a{
     font-size: 25px;
 }
 .nav{
-    width: 70%;
+    width: 90%;
     margin: 0  auto;
     text-align: center;
 }
@@ -55,16 +55,11 @@ a{
     z-index: 10;
 }
 .main_text{
-    position:relative; 
-    top:100px;
     color:rgb(6, 27, 44);
     font-size: 60px;
     text-shadow: 1px 1px 3px black;
 }
 .main_text_sub{
-    position:relative; 
-    top:180px;
-    color:rgb(6, 27, 44);
     font-size: 32px;
     text-shadow: 1px 1px 3px black;
 }
@@ -74,11 +69,12 @@ a{
 .menu_detail{
     display:flex ;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .menu_detail_box{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column-reverse;
-    width:30%;
 }
 .menu_detail_img{
     width:100%;
@@ -91,9 +87,7 @@ a{
     text-shadow: 1px 1px 3px black;
     text-align: center;
 }
-.clear{
-    clear: both;
-}
+
 
 .list li{
     text-align: left;
@@ -115,7 +109,6 @@ a{
 .prof_wrap{
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 .prof_img{
     width: 30%;
@@ -127,13 +120,6 @@ a{
 .prof_img img{
     text-align: center;
 }
-.prof_letter{
-    width:65%;
-    display: flex;
-    text-align: center;
-    padding: 0 50px;
-    background-color: azure;
-}
 .prof_title{
     width:70%;
 }
@@ -141,6 +127,19 @@ a{
     width:100%;
     padding: 50px;
 }
+@media screen and (max-width:768px){
+    .prof_wrap{
+        justify-content:start;
+    }
+    .prof_img img{
+        width:100%;
+        text-align: center;
+    }
+    .prof_title{
+        width:100%;
+    }
+}
+
 /*フッターコンテンツ*/
 footer{
     height:30px;
