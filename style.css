@@ -97,12 +97,19 @@ a{
 .digital_wrap ul{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.digital_wrap li{
+    padding:20px;
 }
 .analog_wrap ul{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.analog_wrap li{
+    padding:20px;
 }
 
 /*++メインコンテンツ`profile++*/
@@ -113,7 +120,7 @@ a{
     margin: auto 0;
 }
 .prof_img{
-    width:100%;
+    width:50%;
     text-align: center;
     display: flex;
     flex-direction: column;
