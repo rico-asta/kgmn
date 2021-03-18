@@ -133,6 +133,12 @@ a{
     width:100%;
     padding: 10px;
 }
+
+.faq_wrap h2{
+    background-color: lemonchiffon;
+}
+
+
 /*フッターコンテンツ*/
 footer{
     height:30px;
@@ -142,4 +148,13 @@ footer{
     text-align: center;
     color: cornsilk;
     text-shadow: 1px 1px 3px black;
+}
+
+#totop{
+    position: fixed;
+    bottom:0;
+    right:0;
+}
+#totop img{
+    width:50px;
 }
