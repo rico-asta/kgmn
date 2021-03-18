@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: 'RocknRoll One', sans-serif;
     text-decoration: none;
+    font-size: 2rem;
 }
 li{
     list-style: none;
@@ -19,16 +20,16 @@ a{
 
 
 .logo img{
-    height:75px;
+    height:50px;
 }
 .search{
-    line-height: 75px;
     display: none;
 }
 .search span{
     font-size: 25px;
 }
 .nav{
+    line-height: 50px;
     width: 90%;
     margin: 0  auto;
     text-align: center;
@@ -40,6 +41,7 @@ a{
     justify-content: space-evenly;
 }
 .nav li{
+    padding: 0 20px;
     text-align: center;
     list-style: none;
 }
@@ -51,7 +53,7 @@ a{
     background-image: url(top.png);
     background-size: cover;
     opacity:0.8 ;
-    height:400px;
+    height:350px;
     z-index: 10;
 }
 .main_text{
@@ -94,6 +96,11 @@ a{
 }
 
 /*++メインコンテンツ`disital analog++*/
+.digital_wrap{
+    border-top: cornflowerblue 1px solid;
+    border-bottom: cornflowerblue 1px solid;
+    padding:20px;
+}
 .digital_wrap ul{
     display: flex;
     flex-direction: column;
@@ -101,6 +108,11 @@ a{
     flex-wrap: wrap;
 }
 .digital_wrap li{
+    padding:20px;
+}
+
+.analog_wrap{
+    border-bottom: cornflowerblue 1px solid;
     padding:20px;
 }
 .analog_wrap ul{
@@ -118,6 +130,8 @@ a{
     justify-content:stretch;
     flex-wrap: wrap;
     margin: auto 0;
+    border-bottom: cornflowerblue 1px solid;
+    padding:20px;
 }
 .prof_img{
     width:50%;
@@ -137,7 +151,13 @@ a{
 .faq_wrap h2{
     background-color: lemonchiffon;
 }
-
+.faq_wrap {
+    border-bottom: cornflowerblue 1px solid;
+    padding:20px;
+}
+.buy_wrap{
+    padding:20px;
+}
 
 /*フッターコンテンツ*/
 footer{
