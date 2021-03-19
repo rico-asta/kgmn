@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: 'RocknRoll One', sans-serif;
     text-decoration: none;
-    font-size: 16px
+    font-size: 15px
 }
 li{
     list-style: none;
@@ -45,10 +45,15 @@ a{
     text-align: center;
     list-style: none;
 }
-@media screen and(max-width:640px){
+@media screen and ( max-width : 769px){
     .nav li{
-        font-size: 5px;
+        font-size: 7px;
         list-style: none;
+    }
+    .search{
+        display: none;
+        line-height: 50px;
+        padding: 0 5px;
     }
 }
 
