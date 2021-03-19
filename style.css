@@ -8,7 +8,7 @@ li{
     list-style: none;
 }
 a{
-    color:rgb(6, 27, 44);
+    color:darkblue
 }
 .logo_search_nav{
     display: flex;
@@ -46,12 +46,19 @@ a{
     list-style: none;
 }
 @media screen and ( max-width : 769px){
+    .nav ul{
+        flex-wrap: wrap;
+    }
     .nav li{
+        flex-wrap: wrap;
+        display: flex;
         font-size: 7px;
+        width: 50px;
         list-style: none;
+        display: none;
     }
     .search{
-        display: none;
+        display: inline-block;
         line-height: 50px;
         padding: 0 5px;
     }
