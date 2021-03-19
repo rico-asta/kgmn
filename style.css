@@ -40,10 +40,16 @@ a{
     justify-content: space-evenly;
 }
 .nav li{
-    font-size: 10px;
+    font-size: 12px;
     padding: 0 5px;
     text-align: center;
     list-style: none;
+}
+@media screen and(max-width:640px){
+    .nav li{
+        font-size: 5px;
+        list-style: none;
+    }
 }
 
 /*メインコンテンツ*/
