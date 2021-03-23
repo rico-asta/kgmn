@@ -52,13 +52,11 @@ a{
     display: none;
 }
 .nav_sp ul{
-    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     display: none; 
 }
 .nav_sp li{
-    display: flex;
     font-size: 5px;
     padding: 0 5px;
     text-align: center;
