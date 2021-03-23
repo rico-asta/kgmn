@@ -54,13 +54,9 @@ a{
     display: none; 
 }
 .nav_sp li{
-    font-size: 5px;
-    padding: 0 5px;
-    text-align: center;
-    list-style: none;
     display: none; 
 }
-@media screen and (min-width:768px) { 
+@media screen and (max-width:768px) { 
     .nav {
         display: none;
     }
@@ -76,6 +72,10 @@ a{
         justify-content: space-evenly;
     }
     .nav_sp li{
+        font-size: 5px;
+        padding: 0 5px;
+        text-align: center;
+        list-style: none;
         display: block;
     }
     .search{
