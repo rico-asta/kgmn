@@ -28,7 +28,6 @@ a{
     font-size: 25px;
 }
 .nav{
-    font-size: 15px;
     line-height: 50px;
     width: 90%;
     margin: 0  auto;
@@ -40,7 +39,7 @@ a{
     justify-content: space-evenly;
 }
 .nav li{
-    font-size: 12px;
+    font-size: 15px;
     padding: 0 5px;
     text-align: center;
     list-style: none;
@@ -52,8 +51,6 @@ a{
     display: none;
 }
 .nav_sp ul{
-    flex-direction: row;
-    justify-content: space-evenly;
     display: none; 
 }
 .nav_sp li{
@@ -75,6 +72,8 @@ a{
     }
     .nav_sp ul{
         display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
     .nav_sp li{
         display: block;
