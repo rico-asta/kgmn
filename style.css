@@ -45,22 +45,42 @@ a{
     text-align: center;
     list-style: none;
 }
+.nav_sp{
+    line-height: 50px;
+    display: flex;
+    width: 90%;
+    text-align: center;
+    display: none;
+}
+.nav_sp ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav_sp li{
+    font-size: 5px;
+    padding: 0 5px;
+    text-align: center;
+    list-style: none;
+    display: none;
+}
 @media screen and ( max-width : 769px){
-    .nav ul{
-        flex-wrap: wrap;
-    }
-    .nav li{
-        flex-wrap: wrap;
-        display: flex;
-        font-size: 7px;
-        width: 50px;
-        list-style: none;
+    .nav {
         display: none;
     }
-    .search{
+    .nav li{
+        display: none;
+    }
+    .nav_sp {
         display: inline-block;
+    }
+    .nav_sp li{
+        display: inline-block;
+    }
+    .search{
         line-height: 50px;
         padding: 0 5px;
+        display: none;
     }
 }
 
