@@ -47,7 +47,6 @@ a{
 }
 .nav_sp{
     line-height: 50px;
-    display: flex;
     width: 90%;
     text-align: center;
     display: none;
@@ -56,15 +55,17 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    display: none; 
 }
 .nav_sp li{
+    display: flex;
     font-size: 5px;
     padding: 0 5px;
     text-align: center;
     list-style: none;
-    display: none;
+    display: none; 
 }
-@media screen and ( max-width : 769px){
+@media screen and (max-width : 769px){
     .nav {
         display: none;
     }
@@ -72,14 +73,18 @@ a{
         display: none;
     }
     .nav_sp {
-        display: inline-block;
+        display: flex;
+    }
+    .nav_sp ul{
+        display: flex;
     }
     .nav_sp li{
-        display: inline-block;
+        display: block;
     }
     .search{
-        line-height: 50px;
-        padding: 0 5px;
+        display: none;
+    }
+    .search span{
         display: none;
     }
 }
