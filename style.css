@@ -2,7 +2,6 @@
     box-sizing: border-box;
     font-family: 'RocknRoll One', sans-serif;
     text-decoration: none;
-    font-size: 15px
 }
 li{
     list-style: none;
@@ -29,6 +28,7 @@ a{
     font-size: 25px;
 }
 .nav{
+    font-size: 15px;
     line-height: 50px;
     width: 90%;
     margin: 0  auto;
@@ -107,9 +107,11 @@ a{
     text-shadow: 1px 1px 3px black;
 }
 .menu{
+    font-size: 15px;
     margin:0 auto;
 }
 .menu_detail{
+    font-size: 15px;
     display:flex ;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -138,6 +140,7 @@ a{
 
 /*++メインコンテンツ`disital analog++*/
 .digital_wrap{
+    font-size: 15px;
     border-top: cornflowerblue 1px solid;
     border-bottom: cornflowerblue 1px solid;
     padding:20px;
@@ -153,6 +156,7 @@ a{
 }
 
 .analog_wrap{
+    font-size: 15px;
     border-bottom: cornflowerblue 1px solid;
     padding:20px;
 }
@@ -167,6 +171,7 @@ a{
 
 /*++メインコンテンツ`profile++*/
 .prof_wrap{
+    font-size: 15px;
     display: flex;
     justify-content:stretch;
     flex-wrap: wrap;
@@ -193,15 +198,18 @@ a{
     background-color: lemonchiffon;
 }
 .faq_wrap {
+    font-size: 15px;
     border-bottom: cornflowerblue 1px solid;
     padding:20px;
 }
 .buy_wrap{
+    font-size: 15px;
     padding:20px;
 }
 
 /*フッターコンテンツ*/
 footer{
+    font-size: 15px;
     height:30px;
     background-color: darkorange;
 }
