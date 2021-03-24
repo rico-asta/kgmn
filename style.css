@@ -112,7 +112,7 @@ a{
 .menu_detail{
     font-size: 15px;
     display:flex ;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .menu_detail_box{
@@ -142,7 +142,7 @@ a{
     font-size: 15px;
     border-top: cornflowerblue 1px solid;
     border-bottom: cornflowerblue 1px solid;
-    padding:20px;
+    padding:15px;
 }
 .digital_wrap ul{
     display: flex;
@@ -151,13 +151,13 @@ a{
     flex-wrap: wrap;
 }
 .digital_wrap li{
-    padding:20px;
+    padding:0px;
 }
 
 .analog_wrap{
     font-size: 15px;
     border-bottom: cornflowerblue 1px solid;
-    padding:20px;
+    padding:15px;
 }
 .analog_wrap ul{
     display: flex;
@@ -165,7 +165,7 @@ a{
     flex-wrap: wrap;
 }
 .analog_wrap li{
-    padding:20px;
+    padding:0px;
 }
 
 /*++メインコンテンツ`profile++*/
@@ -180,17 +180,24 @@ a{
 }
 .prof_img{
     width:50%;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
 }
+    text-align: center;
 .prof_img img{
     width:100%;
 }
 .prof_text {
-    width:100%;
+    width:50%;
     padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .prof_text {
+        width:100%;
+    }
 }
 
 .faq_wrap h2{
