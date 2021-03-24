@@ -83,7 +83,7 @@ a{
         align-items: center;
     }
     .search span{
-        display: block;
+        display: inline-block;
     }
 }
 
