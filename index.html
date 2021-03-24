@@ -48,7 +48,7 @@
           <li><a href="#buy">お問合せ</a></li>
         </ul>
       </div>
-      <div class="nav_sp">
+      <div class="nav_sp" id="open" style="display:none;clear:both;">
         <ul>
           <li><a href="#digital">デジタル作品</a></li>
           <li><a href="#analog">アナログ作品</a></li>
@@ -57,8 +57,14 @@
           <li><a href="#buy">お問合せ</a></li>
         </ul>
       </div>     
+      
       <div class="search">
-        <span class="fa fa-bars"></span>
+        <!-- 折り畳み展開ポインタ -->
+        <div onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+          <a style="cursor:pointer;"><span class="fa fa-bars"></span></a>
+        </div>
+       <!--// 折り畳み展開ポインタ -->
+        
       </div>
     </div>
     

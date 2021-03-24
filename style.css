@@ -79,10 +79,11 @@ a{
         display: block;
     }
     .search{
-        display: none;
+        display: flex;
+        align-items: center;
     }
     .search span{
-        display: none;
+        display: block;
     }
 }
 
