@@ -228,7 +228,14 @@ a{
     display: flex;
     flex-direction: column;
 }
-
+@media screen and (max-width:768px) {
+    .buy_top{
+        display: flex;
+        flex-direction: column;
+        padding:50px 20px;
+    
+    }
+}
 /*フッターコンテンツ*/
 footer{
     font-size: 15px;
