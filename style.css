@@ -209,9 +209,24 @@ a{
     border-bottom: cornflowerblue 1px solid;
     padding:20px;
 }
+.buy_top{
+    display: flex;
+    flex-direction: row;
+    padding:50px
+
+}
 .buy_wrap{
     font-size: 15px;
+    padding:50px 20px;
+}
+
+.buy_wrap ul{
     padding:20px;
+
+}
+.tweet_tl{
+    display: flex;
+    flex-direction: column;
 }
 
 /*フッターコンテンツ*/
