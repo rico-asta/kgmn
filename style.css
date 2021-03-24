@@ -168,7 +168,9 @@ a{
 .analog_wrap li{
     padding:0px;
 }
-
+.analog_img img{
+    width:150px;
+}
 /*++メインコンテンツ`profile++*/
 .prof_wrap{
     font-size: 15px;
