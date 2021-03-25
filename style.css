@@ -51,6 +51,7 @@ a{
   width: 100%;
   height: 250px;
   background-color: steelblue;
+  opacity: 0.95;
   transform: skewY(15deg);
   margin-top: 10vw;
 }
