@@ -3,7 +3,12 @@
   font-family: 'RocknRoll One', sans-serif;
   text-decoration: none;
 }
-
+li{
+  list-style: none;
+}
+a{
+    color:steelblue
+}
 .nav{
   margin: 0  auto;
   color: aliceblue;
@@ -68,7 +73,6 @@
 }
 .nav_main li{
   font-size: 10px;
-  list-style: none;
 }
 
 aside{
@@ -96,7 +100,6 @@ aside{
 }
 .digital_wrap li{
   padding:0px;
-  list-style: none;
 }
 
 .analog_wrap{
@@ -112,7 +115,6 @@ aside{
 }
 .analog_wrap li{
   padding:0px;
-  list-style: none;
 }
 .analog_img img{
   width:200px;
@@ -173,7 +175,6 @@ aside{
 
 .buy_wrap ul{
   padding:20px;
-  list-style: none;
 
 }
 .tweet_tl{
@@ -185,7 +186,6 @@ aside{
       display: flex;
       flex-direction: column;
       padding:50px 20px;
-  
   }
 }
 /*フッターコンテンツ*/
