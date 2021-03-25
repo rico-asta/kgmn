@@ -157,6 +157,9 @@ aside{
   border-bottom: gold 1px solid;
   padding:50px 20px;
 }
+.faq_wrap li{
+  list-style: none;
+}
 .buy_top{
   display: flex;
   flex-direction: row;
