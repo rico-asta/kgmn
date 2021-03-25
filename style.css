@@ -96,6 +96,7 @@ aside{
 }
 .digital_wrap li{
   padding:0px;
+  list-style: none;
 }
 
 .analog_wrap{
@@ -111,6 +112,7 @@ aside{
 }
 .analog_wrap li{
   padding:0px;
+  list-style: none;
 }
 .analog_img img{
   width:200px;
