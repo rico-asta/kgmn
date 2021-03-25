@@ -38,11 +38,10 @@ a{
 .triangle01 p {
   display: table-cell;
   vertical-align: middle;
-  text-align:end;
+  text-align: end;
   font-size:50px;
   font-weight: bold;
   color:aliceblue;
-  padding:0 50px;
 } 
 .triangle01 > * {
   transform: skewY(10deg);
@@ -54,6 +53,9 @@ a{
   background-color: steelblue;
   transform: skewY(10deg);
   margin-top: 10vw;
+}
+.triangle02 > * {
+  transform: skewY(-10deg);
 }
 
 
