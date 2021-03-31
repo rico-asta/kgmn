@@ -79,6 +79,18 @@ a{
 aside{
   font-size: 12px;
 }
+
+
+dl div{
+  display: flex;
+  flex-wrap: wrap;
+}
+dt{
+  width: 100px
+}
+dd{
+  width: 40%;
+}
 .news_wrap{
   font-size: 15px;
   border-top: gold 1px solid;
